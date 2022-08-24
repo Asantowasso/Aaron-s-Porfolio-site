@@ -13,13 +13,14 @@ h1 {
 display: flex;
 justify-content: center;
 }
+/* Styling the email button */
 li, a, button {
 color: rgb(60, 139, 212);
 font-weight: 500;
 font-size: 16px;
 text-decoration: none;
 }
-
+/* Code used to style the nav bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +44,7 @@ header {
 .nav_links li a:hover {
     color: rgb(240, 170, 170);
 }
-
+/* code that adds interactivity to the button */
 button {
  padding: 9px 25px;
  background-color: rgba(2, 9, 10);
@@ -72,7 +73,7 @@ header {
     align-items: center;
     padding: 30px 10%;
 }
-
+/* Code that adds interactivity to the navlinks */
 .nav_links {
     list-style: none;
 }
@@ -108,7 +109,7 @@ background-color: rgba(240, 170, 170);
 width: 75%;
 margin-left: 20px;
 }
-
+/* Styling for the "about" me section */
 .About_me {
 margin-bottom: 50px;
 padding: 5px;
@@ -129,7 +130,7 @@ font-size: 20px;
 .My_Work h2 {
 justify-content: center;
 }
-
+/* Styling for the "My Work" seciton this includes images that pop-out when they are hovered over and contian links that bring visitiors to other sites. */
 .My_Work   {
 width: 100%;
 padding: 5px;
@@ -160,7 +161,7 @@ background-color: rgba(60, 139, 212);
   transform:scale(1.2); 
   z-index: 2;
 }
-
+/* The final section that styles a section at the bottom of the page that creates a small list of links for visition to follow to bring them to more information about my work and backround */
 .Get_in_touch {
 Width: 100%;
 padding: 5px;
