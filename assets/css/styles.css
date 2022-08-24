@@ -9,6 +9,10 @@ h1 {
     color: black;
 }
 
+.Avi img {
+display: flex;
+justify-content: center;
+}
 li, a, button {
 color: rgb(60, 139, 212);
 font-weight: 500;
@@ -106,7 +110,7 @@ margin-left: 20px;
 }
 
 .About_me {
-margin-bottom: 5px;
+margin-bottom: 50px;
 padding: 5px;
 height:100px;
 color: black;
@@ -126,15 +130,18 @@ font-size: 20px;
 justify-content: center;
 }
 
-.My_Work {
+.My_Work   {
 width: 100%;
 padding: 5px;
-margin: 70px auto;
+margin: 0px auto;
+margin-bottom: 50px;
 display: flex;
 flex-direction: row;
-justify-content: left;
+justify-content: space-between;
 background-color: rgba(60, 139, 212);
 }
+
+
 
 .pics {
     width:250px;
@@ -152,5 +159,18 @@ background-color: rgba(60, 139, 212);
 .pics:hover {
   transform:scale(1.2); 
   z-index: 2;
+}
+
+.Get_in_touch {
+Width: 100%;
+padding: 5px;
+margin: 0px auto;
+display: flex;
+flex-direction: column;
+background-color: rgba(60, 139,212);
+}
+
+.Get_in_touch ul li {
+font-size: 50px;
 }
 
