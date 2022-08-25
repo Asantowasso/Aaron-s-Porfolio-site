@@ -9,3 +9,6 @@
 -The site features elements that showcase my abilities
 -Features include a working navigation bar, a button allowing an email to be sent to my inbox, A showcase for work with images that bloom when hovered over and have links to other sites. A list featuring working links to my Linkedin and Github pages.
 -The site dynamically scales to the viewer's device.
+
+![image](https://user-images.githubusercontent.com/79666127/186560252-7bb70012-3b84-42e0-ba96-843072e1ce3a.png)
+
