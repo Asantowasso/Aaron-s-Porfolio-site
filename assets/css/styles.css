@@ -6,6 +6,8 @@ background-color: #F8FFE5;
 }
 
 h1 {
+   
+    font-size: 50px;
     color: black;
 }
 
@@ -14,18 +16,19 @@ display: flex;
 justify-content: center;
 }
 /* Styling the email button */
-li, a, button {
+/* li, a, button {
 color: #EF476F;
 font-weight: 500;
 font-size: 16px;
 text-decoration: none;
-}
+} */
 /* Code used to style the nav bar */
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    padding-bottom: 20px;
 }
 
 .nav_links {
@@ -118,11 +121,24 @@ font-size: 30px;
 }
 
 .About_me {
-padding-top: 20px;
+text-indent: 20px;
+line-height: 1.5;
+padding-top: 30px;
+padding-bottom: 20px;
 font-size: 20px;
 
 }
 
+.title_2 {
+background-color: #06D6A0;
+padding:20px;
+font-size: 30px;
+padding-top: 20px;
+}
+
+.items {
+padding-top: 20px;
+}
 
 
 
