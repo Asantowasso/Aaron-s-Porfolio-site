@@ -2,7 +2,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color: #cbc5d3;
+background-color: #F8FFE5;
 }
 
 h1 {
@@ -15,7 +15,7 @@ justify-content: center;
 }
 /* Styling the email button */
 li, a, button {
-color: rgb(60, 139, 212);
+color: #EF476F;
 font-weight: 500;
 font-size: 16px;
 text-decoration: none;
@@ -110,37 +110,22 @@ width: 75%;
 margin-left: 20px;
 }
 /* Styling for the "about" me section */
-.About_me {
-margin-bottom: 50px;
-padding: 5px;
-height:100px;
-color: black;
-background-color: rgba(60, 139, 212);
-
+.title_1 {
+background-color: #06D6A0;
+padding:20px;
+font-size: 30px;
 
 }
 
-
-.About_me h2 {
-margin-bottom: 0px;
+.About_me {
+padding-top: 20px;
 font-size: 20px;
 
 }
 
-.My_Work h2 {
-justify-content: center;
-}
-/* Styling for the "My Work" seciton this includes images that pop-out when they are hovered over and contian links that bring visitiors to other sites. */
-.My_Work   {
-width: 100%;
-padding: 5px;
-margin: 0px auto;
-margin-bottom: 50px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: rgba(60, 139, 212);
-}
+
+
+
 
 
 
