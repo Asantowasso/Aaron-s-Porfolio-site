@@ -1,19 +1,18 @@
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-background-color: #F8FFE5;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f8ffe5;
 }
 
 h1 {
-   
-    font-size: 50px;
-    color: black;
+  font-size: 50px;
+  color: black;
 }
 
 .Avi img {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 /* Styling the email button */
 /* li, a, button {
@@ -24,163 +23,168 @@ text-decoration: none;
 } */
 /* Code used to style the nav bar */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  padding-bottom: 20px;
 }
 
 .nav_links {
-    list-style: none;
+  list-style: none;
 }
 
 .nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav_links li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-    color: rgb(240, 170, 170);
+  color: rgb(240, 170, 170);
 }
 /* code that adds interactivity to the button */
 button {
- padding: 9px 25px;
- background-color: rgba(2, 9, 10);
- border: none;
- border-radius: 50px;
- cursor: pointer;
- transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  background-color: rgba(2, 9, 10);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover {
-background-color: rgba(240, 170, 170);
-
+  background-color: rgba(240, 170, 170);
 }
 
-
-li, a, button {
-color: black;
-font-weight: 500;
-font-size: 16px;
-text-decoration: none;
+li,
+a,
+button {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 /* Code that adds interactivity to the navlinks */
 .nav_links {
-    list-style: none;
+  list-style: none;
 }
 
 .nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav_links li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover {
-    color: rgb(240, 170, 170);
+  color: rgb(240, 170, 170);
 }
 
 button {
- padding: 9px 25px;
- background-color: rgba(60, 139, 212);
- border: none;
- border-radius: 50px;
- cursor: pointer;
- transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  background-color: rgba(60, 139, 212);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 button:hover {
-background-color: rgba(240, 170, 170);
-
+  background-color: rgba(240, 170, 170);
 }
 
 .content {
-width: 75%;
-margin-left: 20px;
+  width: 75%;
+  margin-left: 20px;
 }
 /* Styling for the "about" me section */
 .title_1 {
-background-color: #06D6A0;
-padding:20px;
-font-size: 30px;
-
+  background-color: #06d6a0;
+  padding: 20px;
+  font-size: 30px;
 }
 
 .About_me {
-text-indent: 20px;
-line-height: 1.5;
-padding-top: 30px;
-padding-bottom: 20px;
-font-size: 20px;
-
+  text-indent: 20px;
+  line-height: 1.5;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .title_2 {
-background-color: #06D6A0;
-padding:20px;
-font-size: 30px;
-padding-top: 20px;
+  background-color: #06d6a0;
+  padding: 20px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.my_work {
+  padding-top: 15px;
 }
 
 .items {
-padding-top: 20px;
-min-width: 696px;
-list-style: none;
-
-
+  padding-top: 15px;
+  padding: 10px;
+  padding-bottom: 29px;
+  min-width: 696px;
+  list-style: none;
 }
 
 .items li {
-display: inline;
+  /* border-radius: 25px; */
+  display: inline;
+  padding: 15px;
+  padding-bottom: 27px;
 }
 
-
-
-
-
+.title_3 {
+  background-color: #06d6a0;
+  padding: 20px;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
 
 .pics {
-    width:250px;
-    box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
-    transition: 1s;
-
+  width: 250px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  transition: 1s;
 }
 
 .pics img {
-    display: block;
-    width: 100%;
-    border-radius: 5px
+  display: block;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .pics:hover {
-  transform:scale(1.2); 
+  transform: scale(1.2);
   z-index: 2;
 }
 /* The final section that styles a section at the bottom of the page that creates a small list of links for visition to follow to bring them to more information about my work and backround */
 .Get_in_touch {
-Width: 100%;
-padding: 5px;
-margin: 0px auto;
-display: flex;
-flex-direction: column;
-background-color: rgba(60, 139,212);
+  width: 100%;
+  padding: 5px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(60, 139, 212);
 }
 
 .Get_in_touch ul li {
-font-size: 50px;
+  font-size: 50px;
 }
-
