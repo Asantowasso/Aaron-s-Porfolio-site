@@ -155,8 +155,19 @@ button:hover {
   background-color: #06d6a0;
   padding: 20px;
   font-size: 30px;
-  padding-top: 25px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.get_in_touch {
+padding-top: 20px;
+
+}
+
+.contact li {
+display: inline;
+
+
 }
 
 .pics {
